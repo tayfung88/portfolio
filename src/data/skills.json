@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Langages",
+        "description": "Voici les langages de programmation avec lesquels je travaille régulièrement. Je les utilise pour développer des applications web robustes et efficaces, tant côté front-end que back-end.",
+        "images": [
+            "./images/html.svg",
+            "./images/css.svg",
+            "./images/javascript.svg",
+            "./images/php.svg"
+        ]
+    },
+    {
+        "title": "Frameworks",
+        "description": "Les frameworks suivants sont mes outils de prédilection pour structurer et accélérer le développement de projets complexes. Ils permettent de créer des applications performantes et évolutives.",
+        "images": [
+            "./images/symfony.svg",
+            "./images/react.svg",
+            "./images/vite.svg"
+        ]
+    },
+    {
+        "title": "Outils & Technologies",
+        "description": "Pour garantir la qualité et l'efficacité de mes projets, j'utilise une variété d'outils et de technologies. Ces outils me permettent de gérer le code source, de déployer des applications et de collaborer efficacement avec d'autres développeurs.",
+        "images": [
+            "./images/docker.svg",
+            "./images/git.svg",
+            "./images/github.svg",
+            "./images/sonarqube.svg"
+        ]
+    }
+]
