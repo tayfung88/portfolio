@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+### Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est un portfolio réalisé avec React et Vite en TypeScript (TSX). Il présente mes compétences, la maîtrise des langages de programmation et des frameworks, ainsi que l'utilisation d'outils comme Docker et Git.
 
-Currently, two official plugins are available:
+## Version de React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Le projet utilise la version 18.3.1 de React.
 
-## Expanding the ESLint configuration
+## Fonctionnalités
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Présentation des compétences
+- Maîtrise des langages de programmation et frameworks
+- Utilisation d'outils comme Docker et Git
+- Projets avec descriptions et images
+- Liens vers les projets et les sources de code
 
-- Configure the top-level `parserOptions` property like this:
+## Prérequis
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [Node.js](https://nodejs.org/) (version 16 ou plus)
+- [Docker](https://www.docker.com/) (si vous souhaitez utiliser Docker)
+
+## Installation
+
+Pour installer et exécuter le projet localement, suivez ces étapes :
+
+# 1. Clonez le dépôt :
+
+git clone https://github.com/tayfung88/portfolio
+
+# 2. Accédez au répertoire du projet :
+
+cd portfolio
+
+# 3. Installez les dépendances :
+
+npm install
+
+# 4. Démarrez l'application
+
+npm run dev
+
+## Utilisation de Docker 
+
+# 1. Construisez l'image Docker : 
+
+docker build -t tayfun-portoflio .
+
+# 2. Exécutez le conteneur Docker : 
+
+docker run -p 5173:5173 tayfun-portfolio 
+
+   
