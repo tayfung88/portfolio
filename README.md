@@ -1,4 +1,4 @@
-### Portfolio
+# Portfolio
 
 Ce projet est un portfolio réalisé avec React et Vite en TypeScript (TSX). Il présente mes compétences, la maîtrise des langages de programmation et des frameworks, ainsi que l'utilisation d'outils comme Docker et Git.
 
@@ -25,30 +25,28 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
 Pour installer et exécuter le projet localement, suivez ces étapes :
 
-# 1. Clonez le dépôt :
+### 1. Clonez le dépôt :
 
 git clone https://github.com/tayfung88/portfolio
 
-# 2. Accédez au répertoire du projet :
+### 2. Accédez au répertoire du projet :
 
 cd portfolio
 
-# 3. Installez les dépendances :
+### 3. Installez les dépendances :
 
 npm install
 
-# 4. Démarrez l'application
+### 4. Démarrez l'application
 
 npm run dev
 
 ## Utilisation de Docker 
 
-# 1. Construisez l'image Docker : 
+### 1. Construisez l'image Docker : 
 
 docker build -t tayfun-portoflio .
 
-# 2. Exécutez le conteneur Docker : 
+### 2. Exécutez le conteneur Docker : 
 
 docker run -p 5173:5173 tayfun-portfolio 
-
-   
