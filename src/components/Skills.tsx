@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
     const [skillsData, setSkillsData] = useState<Skill[]>([]);
 
     useEffect(() => {
-        fetch('src/data/skills.json') 
+        fetch('/data/skills.json') 
             .then(response => response.json())
             .then(data => setSkillsData(data))
             .catch(error => console.error('Error fetching skills data:', error));

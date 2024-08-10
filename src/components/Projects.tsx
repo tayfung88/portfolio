@@ -12,7 +12,7 @@ const ProjectsList: React.FC = () => {
     const [projects, setProjects] = useState<Project[]>([]);
 
     useEffect(() => {
-        fetch('src/data/projects.json')
+        fetch('/data/projects.json')
             .then(response => response.json())
             .then(data => setProjects(data))
             .catch(error => console.error('Error fetching projects data:', error));
