@@ -3,6 +3,8 @@ import './App.css';
 import Home from './pages/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import TermsOfService from './pages/TermsOfService';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
             <main className="flex-grow">
               <Routes>
                 <Route path="/" element={<Home />} />
-              </Routes>
+                <Route path="/terms-of-service" element={<TermsOfService />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+               </Routes>
             </main>
           <Footer />
         </Router>

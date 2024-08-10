@@ -2,13 +2,13 @@
     {
         "name": "Portfolio :",
         "description": "Ce portfolio est un projet personnel réalisé avec React et Vite en TypeScript (TSX). Vous y trouverez des sections détaillant mes projets, mes compétences en développement web, ainsi que mes connaissances des outils tels que Docker et Git. L'interface utilisateur est conçue pour être intuitive et responsive, offrant une expérience de navigation fluide sur tous les appareils. Le code source est disponible sur GitHub pour ceux qui souhaitent explorer les détails techniques et voir comment les différentes technologies sont intégrées.",
-        "image": "./public/images/portfolio-img.jpg",
+        "image": "./images/portfolio-img.jpg",
         "link": "https://github.com/tayfung88/portfolio"
     },
     {
         "name": "Projet 2 :",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos cupiditate sit veritatis saepe blanditiis velit illum pariatur fuga, corrupti incidunt suscipit doloribus ipsa nesciunt eos nihil voluptas inventore iusto, soluta, minus nobis libero ipsum accusamus. Sunt sequi qui tempora obcaecati id eius, repellat, magni laborum iusto corrupti exercitationem praesentium voluptas.",
-        "image": "./public/images/project-img.jpg",
+        "image": "./images/project-img.jpg",
         "link": "https://www.liens-vers-le-site.com"
     }
 ]
