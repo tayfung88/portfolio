@@ -10,10 +10,10 @@ const Footer: React.FC = () => {
                 <div className="flex flex-col items-center md:flex-row md:justify-between">
                     {/* Link */}
                     <div className="flex flex-col items-center md:items-start md:flex-row md:space-x-6">
-                        <Link to="/cgu" className="text-gray-300 hover:text-white py-2 px-3 text-sm font-medium">
+                        <Link to="/terms-of-service" className="text-gray-300 hover:text-white py-2 px-3 text-sm font-medium">
                             Conditions générales d'utilisation
                         </Link>
-                        <Link to="/pc" className="text-gray-300 hover:text-white py-2 px-3 text-sm font-medium">
+                        <Link to="/privacy-policy" className="text-gray-300 hover:text-white py-2 px-3 text-sm font-medium">
                             Politique de confidentialité
                         </Link>
                     </div>
