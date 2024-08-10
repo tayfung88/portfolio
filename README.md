@@ -49,4 +49,4 @@ docker build -t tayfun-portoflio .
 
 ### 2. Exécutez le conteneur Docker : 
 
-docker run -p 5173:5173 tayfun-portfolio 
+docker run -p 4173:4173 tayfun-portfolio 
