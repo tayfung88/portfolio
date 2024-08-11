@@ -45,7 +45,7 @@ npm run dev
 
 ### 1. Construisez l'image Docker : 
 
-docker build -t tayfun-portoflio .
+docker build -t tayfun-portfolio .
 
 ### 2. Exécutez le conteneur Docker : 
 
